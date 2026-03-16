@@ -9,29 +9,28 @@ GOSupportLog is an automation tool designed to extract, analyze, and categorize 
 - Python 3.10+
 - Install the dependencies by running:
 
-``bash
-`pip install -r requirements.txt`
-
-# or individually:
-
-`pip install pandas beautifulsoup4 openai python-dotenv openpyxl
-``
+```bash
+  pip install -r requirements.txt
+  # or individually:
+  pip install pandas beautifulsoup4 openai python-dotenv openpyxl
+  ```
 
 ## 🛠️ Installation and Configuration
 
 1. **Clone the repository:**
 
-``bash
-`git clone https://github.com/xFrixonL/GOSupportLog.git
-``
+```bash
+   git clone https://github.com/xFrixonL/GOSupportLog.git
+   cd GOSupportLog
+   ```
 
 2. **API Configuration:**
 
 Create a file called `.env` in the project root and add your Groq key:
 
-``env
-``GROQ_API_KEY=your_groq_key_here
-``
+```env
+   GROQ_API_KEY=your_groq_key_here
+   ```
 
 3. **Data Source:**
 
@@ -87,9 +86,10 @@ The generated file contains the following columns organized for analysis:
 
 2. Run the main script:
 
-``bash
-``py main.py
-``
+```bash
+   python main.py
+   ```
+   
 3. Select the range of days to process when prompted.
 
 4. The report will be generated in Excel format.
