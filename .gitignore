@@ -1,0 +1,19 @@
+# Ignorar el archivo de variables de entorno
+.env
+
+# Ignorar todos los archivos Python
+*.py
+
+# Ignorar todos los archivos HTML
+*.html
+
+# Exceptuar el archivo principal
+!main.py
+
+# Ignorar todos los archivos de Excel generados
+*.xlsx
+
+# Ignorar carpetas de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
