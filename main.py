@@ -45,6 +45,7 @@ REGLAS MECÁNICAS DE IDENTIDAD Y CIERRE:
    - 'Media': Errores de visualización, dudas sobre configuración de filtros o keywords que afectan la operación.
    - 'Baja': Consultas generales de uso, sugerencias estéticas o dudas menores de navegación.
 11. FILTRO DE VALOR: Si el mensaje del día no contiene una consulta, reporte o explicación técnica (ej. solo dice "Gracias", "Hola", o mensajes sin contexto), NO generes ningún ticket. El objeto "tickets" debe estar vacío [].
+12. Para los tickets marcados como 'Pendiente', los campos de 'Resolución', 'Fecha de Resolución y 'Resuelto por' deben quedar vacíos.
 
 CAMPOS REQUERIDOS EN JSON: 'Categoría (Ticket)', 'Subcategoría', 'Emisor del Reporte', 'Fecha de creación (Ticket)', 'Nombre del Producto', 'Estado (Ticket)', 'Contexto', 'Resolución', 'Fecha de Resolución', 'Resuelto por', 'Prioridad'.
 
